@@ -22,6 +22,7 @@ int main(){
   int count;	// 현재등록된 관생 수
   int menu;	// 메뉴번호
   count = loadMembers(members);	// 시작 전에 파일로부터 관생 리스트를 모두 읽어온다.
+  printf("Edited by ___ \n");
   while(1)
   {
     printf("\n[1]목록 [2]호실변경 [3]벌점부여 [4]검색 [5]보고서 저장 [0]종료 >> ");
